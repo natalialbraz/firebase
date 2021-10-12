@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "205979506961",
+    "project_id": "aulaautentication",
+    "storage_bucket": "aulaautentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205979506961:android:8ed9fad5eb381c776754b0",
+        "android_client_info": {
+          "package_name": "com.example.aulasfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205979506961-l7rjgjonadph2bot9be3vtafpechd04o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDPvqkRs0iItx_fBq3QsvOrYe1jV8P8P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205979506961-l7rjgjonadph2bot9be3vtafpechd04o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
