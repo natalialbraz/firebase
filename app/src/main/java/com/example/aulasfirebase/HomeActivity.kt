@@ -24,6 +24,7 @@ import com.google.firebase.ktx.Firebase
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
@@ -67,6 +68,11 @@ class HomeActivity : AppCompatActivity() {
             }
 
         })
+        binding.btExplore.setOnClickListener {
+            val intent = Intent(this, StorageActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
     }
     private fun logOut(){
